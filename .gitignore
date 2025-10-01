@@ -4,9 +4,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,windows,eclipse
 
 ### Archivos propios ###
-*.txt
 imagenes/
-!hola.txt
 
 ### Eclipse ###
 .metadata
