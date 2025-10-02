@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Saludo</title>
+</head>
+<body>
+  
+  
+	<h2 id="saludo">Saludo personalizado</h2>
+  <script>
+    let nombre = "";
+
+    // Pedimos el nombre hasta que no esté vacío
+    do {
+      nombre = prompt("Introduce tu nombre:")?.trim();
+    } while (!nombre);
+
+    // Mostramos el saludo en la página
+    document.getElementById("saludo").textContent = "¡Hola, " + nombre + "!";
+	
+  </script>
+  
+</body>
+</html>
